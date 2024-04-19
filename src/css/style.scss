@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    padding: 0;
     color: #F4F4F9;
     font-family: "Comfortaa", sans-serif;
     font-size: 10px;
@@ -12,7 +13,7 @@ header {
     height: 75px;
     background-color: #2F4550;
     padding-left: 5%;
-
+    
 
     .logo {
         background-color: #F4F4F9;
@@ -53,12 +54,17 @@ header {
     button {
         background-color: #F4F4F9;
         width: 175px;
-        border-radius: 25px;
+        border-radius: 100px ;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
+        padding-right: 10px;
         color: #2F4550;
         font-size: 2rem;
+
+        img {
+            border-radius: 100%;
+        }
     }
 }
 
