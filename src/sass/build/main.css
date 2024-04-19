@@ -1,21 +1,15 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+* {
   color: #F4F4F9;
   font-family: "Comfortaa", sans-serif;
   font-size: 10px;
 }
 
-body header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 75px;
-  background-color: #2F4550;
-  position: fixed;
-  width: 100%;
-}
-body header .logo {
+.logo {
   background-color: #F4F4F9;
   height: 100%;
   width: 75px;
@@ -26,22 +20,19 @@ body header .logo {
   border-radius: 0 0 15px 15px;
   margin-left: 5%;
 }
-body header .logo a {
+.logo a {
   font-size: 4rem;
   color: #2F4550;
 }
-body header a {
-  text-decoration: none;
-  color: #F4F4F9;
-  font-size: 2rem;
-}
-body header nav {
+
+nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 50%;
 }
-body header button {
+
+button {
   background-color: #F4F4F9;
   width: 175px;
   border-radius: 100px;
@@ -52,15 +43,28 @@ body header button {
   color: #2F4550;
   font-size: 2rem;
 }
-body header button img {
+button img {
   border-radius: 100%;
 }
-body main {
-  padding-top: 75px;
-}
-body main section {
-  height: 500px;
+
+.sectionStart {
+  height: 100vh;
   background-color: #F4F4F9;
 }
 
-/*# sourceMappingURL=style.css.map */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 75px;
+  background-color: #2F4550;
+  position: fixed;
+  width: 100%;
+}
+header a {
+  text-decoration: none;
+  color: #F4F4F9;
+  font-size: 2rem;
+}
+
+/*# sourceMappingURL=main.css.map */
