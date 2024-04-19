@@ -6,15 +6,16 @@
   font-size: 10px;
 }
 
-header {
+body header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 75px;
   background-color: #2F4550;
-  padding-left: 5%;
+  position: fixed;
+  width: 100%;
 }
-header .logo {
+body header .logo {
   background-color: #F4F4F9;
   height: 100%;
   width: 75px;
@@ -23,23 +24,24 @@ header .logo {
   align-items: flex-end;
   margin-bottom: 30px;
   border-radius: 0 0 15px 15px;
+  margin-left: 5%;
 }
-header .logo a {
+body header .logo a {
   font-size: 4rem;
   color: #2F4550;
 }
-header a {
+body header a {
   text-decoration: none;
   color: #F4F4F9;
   font-size: 2rem;
 }
-header nav {
+body header nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 50%;
 }
-header button {
+body header button {
   background-color: #F4F4F9;
   width: 175px;
   border-radius: 100px;
@@ -50,11 +52,13 @@ header button {
   color: #2F4550;
   font-size: 2rem;
 }
-header button img {
+body header button img {
   border-radius: 100%;
 }
-
-main section {
+body main {
+  padding-top: 75px;
+}
+body main section {
   height: 500px;
   background-color: #F4F4F9;
 }
