@@ -1,3 +1,50 @@
+*{
+    margin: 0;
+
+}
+
 header {
-    background-color: lightgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color: #2F4550;
+
+
+    .logo {
+        background-color: #F4F4F9;
+        height: 100%;
+        width: 75px;
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: 30px;
+        border-radius: 0 0 15px 15px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 50%;
+
+        
+    }
+    
+    button {
+        width: 10%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+main {
+    section {
+        height: 500px;
+        background-color: blue;
+    }
 }
