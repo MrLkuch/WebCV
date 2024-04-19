@@ -23,6 +23,7 @@
 .logo a {
   font-size: 4rem;
   color: #2F4550;
+  font-weight: bold;
 }
 
 nav {
@@ -47,9 +48,31 @@ button img {
   border-radius: 100%;
 }
 
-.sectionStart {
+.section_start {
   height: 100vh;
-  background-color: #F4F4F9;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(../../../assets/startbackground.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 250px 0 250px;
+}
+.section_start p {
+  margin-bottom: 10%;
+}
+
+.icon_list {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+}
+
+i {
+  background-color: #5CADA9;
+  padding: 15px;
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
 }
 
 header {
@@ -65,6 +88,28 @@ header a {
   text-decoration: none;
   color: #F4F4F9;
   font-size: 2rem;
+}
+
+.ltypobright {
+  color: #F4F4F9;
+  font-size: 8rem;
+  font-weight: bold;
+}
+
+.mtypobright {
+  color: #F4F4F9;
+  font-size: 3rem;
+}
+
+.ltypocolor {
+  color: #5CADA9;
+  font-size: 8rem;
+  font-weight: bold;
+}
+
+.mtypocolor {
+  color: #5CADA9;
+  font-size: 3rem;
 }
 
 /*# sourceMappingURL=main.css.map */
