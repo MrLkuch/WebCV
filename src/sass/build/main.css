@@ -103,6 +103,14 @@ i {
   justify-content: space-around;
 }
 
+.contact {
+  display: flex;
+}
+.contact div {
+  padding: 5%;
+  width: 50%;
+}
+
 header {
   display: flex;
   justify-content: space-between;
