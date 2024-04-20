@@ -1,4 +1,6 @@
 main{
+    display: flex;
+    flex-direction: column;
     section{
         height: 500px;
         margin-bottom: 150px;
