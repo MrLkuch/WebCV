@@ -9,6 +9,14 @@
   font-size: 10px;
 }
 
+main section {
+  height: 500px;
+  margin-bottom: 150px;
+}
+main section p {
+  font-size: 2rem;
+}
+
 .logo {
   background-color: #F4F4F9;
   height: 100%;
@@ -60,6 +68,9 @@ button img {
 .section_start p {
   margin-bottom: 10%;
 }
+.section_start div {
+  margin-bottom: 5%;
+}
 
 .icon_list {
   width: 50%;
@@ -74,6 +85,22 @@ i {
   border-radius: 100%;
   height: 30px;
   width: 30px;
+}
+
+.about_me {
+  display: flex;
+  justify-content: space-around;
+}
+.about_me img {
+  height: 60%;
+  border-radius: 100%;
+  align-self: center;
+}
+.about_me div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 header {
@@ -110,6 +137,17 @@ header a {
 
 .mtypocolor {
   color: #5CADA9;
+  font-size: 3rem;
+}
+
+.ltypodark {
+  color: #2F4550;
+  font-size: 8rem;
+  font-weight: bold;
+}
+
+.mtypodark {
+  color: #2F4550;
   font-size: 3rem;
 }
 
