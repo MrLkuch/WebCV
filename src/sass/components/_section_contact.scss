@@ -21,6 +21,11 @@
         .icon_list {
             flex-direction: row;
             align-self: center;
+
+            i:hover{
+                color: #F4F4F9;
+                background-color: #2F4550;
+            }
         }
     }
 

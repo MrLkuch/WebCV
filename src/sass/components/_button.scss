@@ -1,4 +1,5 @@
 button {
+    border-style: none;
     background-color: #F4F4F9;
     width: 175px;
     border-radius: 100px ;
@@ -9,8 +10,14 @@ button {
     padding-right: 10px;
     color: #2F4550;
     font-size: 2rem;
+    font-weight: bold;
 
     img {
         border-radius: 100%;
     }
+}
+
+button:hover{
+    background-color: #5CADA9;
+    color: #F4F4F9;
 }
