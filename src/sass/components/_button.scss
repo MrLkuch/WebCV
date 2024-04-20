@@ -12,12 +12,15 @@ button {
     font-size: 2rem;
     font-weight: bold;
 
-    img {
-        border-radius: 100%;
-    }
+
 }
 
 button:hover{
     background-color: #5CADA9;
     color: #F4F4F9;
+
+    i {
+        color: #5CADA9;
+        background-color: #F4F4F9;
+    }
 }

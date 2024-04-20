@@ -59,13 +59,14 @@ button {
   font-size: 2rem;
   font-weight: bold;
 }
-button img {
-  border-radius: 100%;
-}
 
 button:hover {
   background-color: #5CADA9;
   color: #F4F4F9;
+}
+button:hover i {
+  color: #5CADA9;
+  background-color: #F4F4F9;
 }
 
 .section_start {
