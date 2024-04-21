@@ -9,7 +9,7 @@
     div{
         display: flex;
         flex-direction: column;
-        padding: 5% 0 0 0;
+        padding-top: 5%;
         width: 50%;
 
         p{
@@ -30,6 +30,49 @@
     }
 
     form {
+        display: flex;
+        flex-direction: column;
         width:40%;
+        justify-content: space-around;
+
+        .group_form{
+            width: 100%;
+
+            label {
+                color: #2F4550;   
+                font-size: 2rem;
+            }
+        
+            input{
+                height: 35px;
+                border-radius: 15px;
+                
+            }
+
+            textarea{
+                border-radius: 15px;
+            }
+        }
+
+        button{
+            background-color: #5CADA9;
+            color:#2F4550;
+            i{
+                color: #5CADA9;
+                background-color: #2F4550;
+            }
+        }
+        button:hover{
+            background-color: #2F4550;
+            color: #5CADA9;
+        
+            i {
+                color: #2F4550;
+                background-color: #5CADA9;
+            }
+        }
+
+    
+
     }
 }
