@@ -4,14 +4,13 @@
 ![GitHub issues](https://img.shields.io/github/issues/MrLkuch/RepoTemplate?style=for-the-badge)
 ![GitHub license](https://img.shields.io/github/license/MrLkuch/RepoTemplate?style=for-the-badge)
 
-<h1 align="center">Project name</h1>
+<h1 align="center">Brief CV HTML/CSS</h1>
 
 <div align="center">
 
 ## Project Description
 
-This repository is a structure to start a personal or professional project.
-This will save valuable time and maximize your working time.
+This repository contain the work for the brief CV HTML/CSS.
 
 </div>
 
