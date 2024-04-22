@@ -1,0 +1,8 @@
+.timeline{
+    display: grid;
+    grid-template-columns: 5px 1fr;
+    
+    .timeline_content{
+        margin: 0 20px 20px 20px;
+    }
+}
