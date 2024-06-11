@@ -11,7 +11,7 @@
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body class="bg-zinc-900 text-xl text-zinc-500">
-        <header class="flex hidden">
+        <header class=" flex hidden">
             <div class="logo">
                 <a>LK</a>
             </div>
@@ -41,8 +41,15 @@
                         class="duration-700 p-2 border border-teal-500 rounded text-teal-500 hover:duration-700 hover:bg-teal-500/20"><i
                        class="fa-solid fa-download mr-2"></i>Mon CV</button>
             </section>
-            <section class="about_me">
-                <img src="https://placehold.co/300x300" alt="">
+            <section class="grid py-5 justify-items-center lg:flex">
+                <div class="w-1/2 relative">
+                    <img src="./assets/profile-pic-color.png" alt=""
+                         class="peer z-10 rounded relative grayscale duration-700 hover:grayscale-0 hover:duration-700 lg:w-3/4"
+                         id="">
+                    <div
+                         class="h-full w-full top-3 left-3 border-4 border-zinc-500 rounded absolute duration-700 peer-hover:border-teal-500 peer-hover:top-1.5 peer-hover:left-1.5 lg:w-3/4 peer-hover:border-8">
+                    </div>
+                </div>
                 <div>
                     <h2 class="ltypodark">À propos</h2>
                     <p class="mtypodark">Lorem ipsum dolor sit amet consectetur
@@ -98,7 +105,7 @@
                     </div>
                     <div class="group_form">
                         <label for="message">Message</label>
-                        <textarea name="message" id="message" cols="30"
+                        <textarea name="message" id="message" cols="10"
                                   rows="10"></textarea>
                     </div>
                     <button type="submit"><i
@@ -109,5 +116,6 @@
         <footer></footer>
         <script src="https://kit.fontawesome.com/f0cd4bd620.js"
                 crossorigin="anonymous"></script>
+        <script src="src/index.js"></script>
     </body>
 </html>
