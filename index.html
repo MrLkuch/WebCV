@@ -9,6 +9,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Comfortaa:wght@300..700&display=swap"
               rel="stylesheet">
         <link href="./css/output.css" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
     </head>
     <body class="bg-zinc-900 text-zinc-500">
         <header class=" flex hidden">
@@ -77,17 +78,17 @@
                                     BACKEND</div>
                             </div>
                             <div class="ml-6 pt-5">
-                                <div class="flex mb-4 space-x-5">
-                                    <div class="card-container">
-                                        <div
-                                             class="bg-zinc-500 p-3 rounded card relative">
+                                <div class="flex mb-4 space-x-5 ">
+                                    <div class="relative p-3 rounded card  shadow-card"
+                                         data-tilt data-tilt-reverse="true"
+                                         data-tilt-scale="1.1" data-tilt-glare
+                                         data-tilt-max-glare="0.5">
+                                        <div class="peer">
                                             <img class="w-24"
                                                  src="./assets/JS.png" alt="">
                                         </div>
-                                    </div>
-                                    <div class="bg-teal-500 p-3">
-                                        <img class="w-24" src="./assets/JS.png"
-                                             alt="">
+                                        <span
+                                              class="md:absolute md:hidden md:top-0 md:left-0 md:h-full md:w-full flex justify-center items-center rounded text-teal-500 font-bold bg-zinc-900/50 card-item peer-hover:flex hover:flex">JavaScript</span>
                                     </div>
                                 </div>
                             </div>
@@ -221,6 +222,6 @@
         <footer></footer>
         <script src="https://kit.fontawesome.com/f0cd4bd620.js"
                 crossorigin="anonymous"></script>
-        <script src="./src/index.js"></script>
+        <script src="./src/vanilla-tilt.js"></script>
     </body>
 </html>
