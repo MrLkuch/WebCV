@@ -8,6 +8,9 @@ module.exports = {
       },
       inset: {
         '60%': '60%',
+      },
+      boxShadow: {
+        'card': '5px 5px 10px 0px rgba(13, 148, 136, 0.5), -5px -5px 10px -5px rgba(13, 148, 136,1)',
       }
     },
   },
