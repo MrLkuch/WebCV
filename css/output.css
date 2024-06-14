@@ -1040,11 +1040,47 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:absolute {
+    position: absolute;
+  }
+
+  .lg\:left-0 {
+    left: 0px;
+  }
+
+  .lg\:top-0 {
+    top: 0px;
+  }
+
+  .lg\:mr-36 {
+    margin-right: 9rem;
+  }
+
   .lg\:flex {
     display: flex;
   }
 
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:h-full {
+    height: 100%;
+  }
+
   .lg\:w-3\/4 {
     width: 75%;
+  }
+
+  .lg\:w-2\/3 {
+    width: 66.666667%;
+  }
+
+  .lg\:w-full {
+    width: 100%;
+  }
+
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
