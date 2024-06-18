@@ -11,7 +11,7 @@
         <link href="./css/output.css" rel="stylesheet">
         <link rel="stylesheet" href="./css/style.css">
     </head>
-    <body class="bg-zinc-900 text-zinc-500">
+    <body class="text-xl font-Anek bg-zinc-900 text-zinc-500">
         <header class=" flex hidden">
             <div class="logo">
                 <a>LK</a>
@@ -34,14 +34,18 @@
                 </p>
                 <div
                      class="flex w-2/3 lg:w-1/5 justify-around my-5 text-teal-500 text-2xl ">
-                    <i
-                       class="duration-700 fa-brands fa-linkedin-in p-4 border border-teal-500 rounded hover:duration-700 hover:bg-teal-500/20"></i>
-                    <i
-                       class="duration-700 fa-brands fa-github p-4 border border-teal-500 rounded hover:duration-700 hover:bg-teal-500/20"></i>
+                    <a href="">
+                        <i
+                           class="duration-700 fa-brands fa-linkedin-in p-4 border border-teal-500 rounded hover:duration-700 hover:bg-teal-500/20"></i>
+                    </a>
+                    <a href="">
+                        <i
+                           class="duration-700 fa-brands fa-github p-4 border border-teal-500 rounded hover:duration-700 hover:bg-teal-500/20"></i>
+                    </a>
                 </div>
-                <button
-                        class="duration-700 p-5 border border-teal-500 rounded text-2xl text-teal-500 hover:duration-700 hover:bg-teal-500/20"><i
-                       class="fa-solid fa-download mr-2"></i>Mon CV</button>
+                <a href=""
+                   class="duration-700 p-5 border border-teal-500 rounded text-2xl text-teal-500 hover:duration-700 hover:bg-teal-500/20"><i
+                       class="fa-solid fa-download mr-2"></i>Mon CV</a>
             </section>
             <section class="grid py-5 justify-items-center lg:flex">
                 <div class="w-1/2 relative">
@@ -487,44 +491,52 @@
                     </div>
                 </div>
             </section>
-            <section class="mt-20">
-                <div class="grid">
+            <section class="grid mt-20 justify-items-center">
+                <div class="grid justify-items-center">
                     <h2
-                        class="grid mb-8 text-center text-2xl text-teal-500 after:h-px after:bg-zinc-500 after:w-24 after:relative after:justify-self-center after:ms-2 after:mt-2">
+                        class="grid  mb-8 text-center text-2xl text-teal-500 after:h-px after:bg-zinc-500 after:w-24 after:relative after:justify-self-center after:ms-2 after:mt-2">
                         Contact</h2>
-                    <p class="mtypodark"> Lorem ipsum dolor sit amet consectetur
+                    <p class="w-2/4"> Lorem ipsum dolor sit amet consectetur
                         adipisicing elit. Vero, nemo quam quisquam fuga
                         reiciendis unde aperiam eius odit ducimus expedita cum
                         alias ea, illo tempore amet. Nostrum fuga provident
                         ipsum.</p>
                     <div
-                         class="flex w-2/3 lg:w-1/3 justify-around my-5 text-teal-500 text-2xl justify-self-center">
-                        <i
-                           class="duration-700 fa-brands fa-linkedin-in p-4 border border-teal-500 rounded hover:duration-700 hover:bg-teal-500/20"></i>
-                        <i
-                           class="duration-700 fa-brands fa-github p-4 border border-teal-500 rounded hover:duration-700 hover:bg-teal-500/20"></i>
+                         class="flex w-2/3 lg:w-1/3 justify-around my-5 text-teal-500 text-2xl ">
+                        <a href=""><i
+                               class="duration-700 fa-brands fa-linkedin-in p-4 border border-teal-500 rounded hover:duration-700 hover:bg-teal-500/20"></i>
+                        </a>
+                        <a href=""><i
+                               class="duration-700 fa-brands fa-github p-4 border border-teal-500 rounded hover:duration-700 hover:bg-teal-500/20"></i>
+                        </a>
                     </div>
                 </div>
-                <form action="POST">
-                    <div class="group_form">
+                <form action="POST" class=" mt-20 grid md:w-1/3">
+                    <div class="grid mb-4">
                         <label for="name">Nom</label>
-                        <input type="text" id="name" name="name">
+                        <input class="h-10 bg-transparent border rounded border-teal-500 p-3 text-teal-500 placeholder:text-teal-500"
+                               type="text" id="name" name="name"
+                               placeholder="Votre Nom...">
                     </div>
-                    <div class="group_form">
+                    <div class="grid mb-4">
                         <label for="email">Adresse E-Mail</label>
-                        <input type="email" id="email" name="email">
+                        <input class="h-10 bg-transparent border rounded border-teal-500 p-3 text-teal-500 placeholder:text-teal-500"
+                               type="email" id="email" name="email"
+                               placeholder="Votre E-mail...">
                     </div>
-                    <div class="group_form">
+                    <div class="grid mb-4">
                         <label for="message">Message</label>
-                        <textarea name="message" id="message" cols="10"
-                                  rows="10"></textarea>
+                        <textarea class="h-32 bg-transparent border rounded border-teal-500 p-3 text-teal-500 placeholder:text-teal-500"
+                                  name="" id=""
+                                  placeholder="Votre message..."></textarea>
                     </div>
-                    <button type="submit"><i
-                           class="fa-solid fa-paper-plane"></i>Envoyer</button>
+                    <button type="submit"
+                            class="w-1/3 justify-self-center duration-700 p-3 border border-teal-500 rounded text-2xl text-teal-500 hover:duration-700 hover:bg-teal-500/20"><i
+                           class="fa-solid fa-paper-plane mr-2"></i>Envoyer</button>
                 </form>
             </section>
         </main>
-        <footer></footer>
+        <footer class="mt-20"></footer>
         <script src="https://kit.fontawesome.com/f0cd4bd620.js"
                 crossorigin="anonymous"></script>
         <script src="./src/vanilla-tilt.js"></script>
