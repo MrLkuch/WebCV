@@ -3,9 +3,7 @@ module.exports = {
   content: ["./*.{html,js}"],
   theme: {
     extend: {
-      fontFamily: {
-        Anek: ["Anek Devanagari", "sans-serif"]
-      },
+
       rotate: {
         '270': '270deg',
       },
