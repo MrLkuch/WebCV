@@ -3,21 +3,22 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Lucas Kucheida</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="./css/output.css" rel="stylesheet">
         <link rel="stylesheet" href="./css/style.css">
+        <script defer src="./src/script.js"></script>
     </head>
     <body class="text-xl bg-zinc-900 text-zinc-500">
         <header class="">
             <nav
                  class="bg-zinc-900 h-20 lg:border-b-[1px] text-nowrap border-teal-500 fixed top-0 w-full lg:flex md:items-center md:justify-between xl:justify-center z-50">
                 <input id="check" type="checkbox" class="hidden peer/burger">
-                <a class=" hidden active" id="home" href="#home"></a>
+                <a class="nav_link hidden active" id="home" href="#home"></a>
                 <div
                      class="relative flex items-center h-full justify-between z-50">
-                    <a class="font-bold text-6xl ml-12 text-teal-500"
+                    <a class="text-teal-500 font-bold text-6xl ml-12"
                        href="#top-link">LK</a>
                     <label class="lg:hidden mr-12 text-3xl " for="check"><i
                            class="fa-solid fa-bars"></i></label>
@@ -25,20 +26,24 @@
                 <ul
                     class="bg-zinc-900 peer-checked/burger:top-[70px] md:flex md:text-md md:text-lg w-full md:gap-4 md:gap-6 md:justify-center lg:justify-end lg:mr-12 absolute lg:relative lg:border-0 lg:p-0 top-[-300px] lg:top-[0] lg:w-[1400px] p-5 border-b-[1px] border-gray-500 z-20 transition-all ease-in duration-500">
                     <li class="mt-2 md:mt-0 hover:text-teal-500">
-                        <a class=" ml-7 md:ml-0 " href="#about">À PROPOS</a>
+                        <a class=" ml-7 md:ml-0 nav_link" href="#about">À
+                            PROPOS</a>
                     </li>
                     <li class="mt-2 md:mt-0 hover:text-teal-500">
-                        <a class=" ml-7 md:ml-0 " href="#skills">COMPÉTENCES</a>
+                        <a class=" ml-7 md:ml-0 nav_link"
+                           href="#skills">COMPÉTENCES</a>
                     </li>
                     <li class="mt-2 md:mt-0 hover:text-teal-500">
-                        <a class=" ml-7 md:ml-0 " href="#path">PARCOURS</a>
+                        <a class=" ml-7 md:ml-0 nav_link"
+                           href="#path">PARCOURS</a>
                     </li>
                     <li class="mt-2 md:mt-0 hover:text-teal-500">
-                        <a class=" ml-7 md:ml-0 "
+                        <a class=" ml-7 md:ml-0 nav_link"
                            href="#experiences">EXPERIENCES</a>
                     </li>
                     <li class="mt-2 md:mt-0 hover:text-teal-500">
-                        <a class=" ml-7 md:ml-0 " href="#contact">CONTACT</a>
+                        <a class=" ml-7 md:ml-0 nav_link"
+                           href="#contact">CONTACT</a>
                     </li>
                     <li class="mt-4 sm:mt-0">
                         <a class="ml-7 sm:ml-0 hover:bg-white px-5 font-semibold rounded py-2 bg-teal-500 text-zinc-900"
@@ -48,8 +53,8 @@
                 </ul>
             </nav>
         </header>
-        <main class="lg:px-20 px-5 grid">
-            <section class="section xl:snap-start xl:snap-always w-full lg:max-w-[1400px] lg:mx-auto h-screen flex flex-col justify-center gap-7 items-center md:flex-row md:items-center md:justify-between"
+        <main class="lg:px-20 px-5 grid" id="top-link">
+            <section class="section pt-20 xl:snap-start xl:snap-always w-full lg:max-w-[1400px] lg:mx-auto h-screen flex flex-col justify-center gap-7 items-center md:flex-row md:items-center md:justify-between"
                      id="home">
                 <div
                      class="md:w-9/12 sm:mx-auto lg:mx-0 lg:w-full text-center md:text-start">
@@ -75,7 +80,8 @@
                     </div>
                 </div>
             </section>
-            <section class=" grid pt-20 py-5 gap-10 lg:grid-cols-2" id="about">
+            <section class="section grid pt-20 py-5 gap-10 lg:grid-cols-2"
+                     id="about">
                 <figure class=" w-[250px] h-[250px] relative
                      justify-self-center :flex lg:justify-self-end
                      lg:self-center">
@@ -98,7 +104,8 @@
                         ipsum.</p>
                 </div>
             </section>
-            <section class="grid pt-20  text-center justify-center" id="skills">
+            <section class="section grid pt-20  text-center justify-center"
+                     id="skills">
                 <h2
                     class="grid my-16 text-center text-2xl text-teal-500 after:h-px after:bg-zinc-500 after:w-24 after:relative after:justify-self-center after:ms-2 after:mt-2">
                     Compétences</h2>
@@ -275,7 +282,7 @@
                     </div>
                 </div>
             </section>
-            <section class="md:flex justify-end pt-20 text-center ml-10 mr-10 md:mr-30 lg:ml-36"
+            <section class="section md:flex justify-end pt-20 text-center ml-10 mr-10 md:mr-30 lg:ml-36"
                      id="path">
                 <div class="grid  md:ml-20 md:w-2/3">
                     <h2
@@ -430,7 +437,7 @@
                     </div>
                 </div>
             </section>
-            <section class="md:flex pt-20 text-center ml-10 mr-10 md:ml-30 lg:mr-36"
+            <section class="section md:flex pt-20 text-center ml-10 mr-10 md:ml-30 lg:mr-36"
                      id="experiences">
                 <div class="grid justify-items-center md:mr-20 md:w-2/3">
                     <h2
@@ -522,7 +529,8 @@
                     </div>
                 </div>
             </section>
-            <section class="grid pt-20 justify-items-center" id="contact">
+            <section class="section grid pt-20 justify-items-center"
+                     id="contact">
                 <div class="grid w-full justify-items-center">
                     <h2
                         class="grid  my-16 text-center text-2xl text-teal-500 after:h-px after:bg-zinc-500 after:w-24 after:relative after:justify-self-center after:ms-2 after:mt-2">

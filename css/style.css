@@ -7,3 +7,7 @@
 
     transform: translateZ(20px);
 }
+
+.active {
+    color: rgb(20 184 166);
+}
