@@ -12,6 +12,7 @@
         <link href="./css/output.css" rel="stylesheet">
         <link rel="stylesheet" href="./css/style.css">
         <script defer src="./src/script.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body class="font-scp text-xl bg-zinc-900 text-zinc-500">
         <header class="">
@@ -62,23 +63,30 @@
                      id="home">
                 <div
                      class="md:w-9/12 sm:mx-auto lg:mx-0 lg:w-full text-center md:text-start">
-                    <h3 class="font-bold text-2xl  sm:text-3xl lg:text-6xl">
-                        Bonjour, </h3>
-                    <h1 class="font-bold text-4xl sm:text-7xl mb-3 w-full"> Je
-                        suis <span class="font-extrabold text-teal-500">
-                            Lucas</span> Kucheida </h1>
-                    <p class="text-lg text-gray-300 lg:text-3xl"> Un <span
+                    <h3 class="font-bold text-2xl  sm:text-3xl lg:text-6xl"
+                        data-aos="fade-down-right" data-aos-easing="ease"
+                        data-aos-delay="400"> Bonjour, </h3>
+                    <h1 class="font-bold text-4xl sm:text-7xl mb-3 w-full"
+                        data-aos="fade-down-right" data-aos-easing="ease"
+                        data-aos-delay="800"> Je suis <span
+                              class="font-extrabold text-teal-500"> Lucas</span>
+                        Kucheida </h1>
+                    <p class="text-lg text-gray-300 lg:text-3xl"
+                       data-aos="fade-down-right" data-aos-easing="ease"
+                       data-aos-delay="1200"> Un <span
                               class="font-bold text-white">Concepteur et
                             Développeur d'Application.</span> Avide de nouvelles
                         expériences</p>
                     <div
                          class="mt-5 mx-auto md:mx-0 sm:flex sm:gap-5 max-w-[380px] sm:justify-between">
                         <a href="#contact"
-                           class="duration-700 text-nowrap text-xl mt-3 sm:mt-0 text-center block h-min sm:px-4 bg-teal-500 py-[10px] text-zinc-900 font-bold rounded hover:bg-white hover:duration-700">Me
-                            Contacter</a>
+                           class="duration-700 text-nowrap text-xl mt-3 sm:mt-0 text-center block h-min sm:px-4 bg-teal-500 py-[10px] text-zinc-900 font-bold rounded hover:bg-white hover:duration-700"
+                           data-aos="zoom-in" data-aos-easing="ease"
+                           data-aos-delay="1600">Me Contacter</a>
                         <a href="./assets/CV Lucas Kucheida CDA.pdf"
                            class="duration-700 text-nowrap text-xl mt-3 sm:mt-0 text-center block h-min px-4 border border-teal-500  py-[9px] text-teal-500 font-bold rounded hover:bg-teal-500/20 hover:duration-700"
-                           target="_blank">
+                           target="_blank" data-aos="zoom-in"
+                           data-aos-easing="ease" data-aos-delay="1700">
                             <i class="icon fa-solid fa-download"></i>
                             Télécharger mon CV </a>
                     </div>
@@ -581,5 +589,9 @@
         <script src="https://kit.fontawesome.com/f0cd4bd620.js"
                 crossorigin="anonymous"></script>
         <script src="./src/vanilla-tilt.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
